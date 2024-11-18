@@ -5,7 +5,7 @@ from accelerate import Accelerator
 GPU_LAYERS = 50
 MODEL_PATH = "models/llama-2-7b-chat.ggmlv3.q8_0.bin"
 
-
+## Preparing LLAMA model for inferencing
 def build_llm_model(gpu_enabled: bool = False):
 
     config = {
@@ -37,8 +37,8 @@ def build_llm_model(gpu_enabled: bool = False):
 
     return model
 
-
-def get_model_response(blog_topic, number_of_words, blog_target_audience, use_gpu):
+## Adjust the prompt template using the user input 
+def get_model_response(blog_topic: str, number_of_words: str, blog_target_audience: str, use_gpu: bool):
 
     template = """
                 You are an experienced blogger and your target audience are {blog_target_audience}. Write a blog post about {blog_topic} within {number_of_words} words.
