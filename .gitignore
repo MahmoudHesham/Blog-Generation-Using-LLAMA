@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# LLama models
+*.bin
+*.gguf
+
 # Distribution / packaging
 .Python
 build/

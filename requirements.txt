@@ -1,0 +1,11 @@
+sentence-transformers
+uvicorn
+ctransformers[cuda]
+nvidia-cublas-cu12
+nvidia-cuda-runtime-cu12
+accelerate
+langchain
+langchain-community
+python-box
+streamlit
+black

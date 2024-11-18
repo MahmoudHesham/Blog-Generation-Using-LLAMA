@@ -1,0 +1,4 @@
+- Download llama-2 chat model from hugging face:
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+
+- As an example you can use "llama-2-7b-chat.ggmlv3.q8_0.bin"
