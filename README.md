@@ -26,7 +26,4 @@ conda activate llm_blog
 * This will open your web browser with the user interface where you can create blog posts.
 
 ## License
-* All the tutorials, scripts, tools and software-bridges developed by VFX Kitchen. are free for academic and non-commercial use only.
-
-## Support [VFX Kitchen.](https://www.youtube.com/VFXKitchen) ❤
-* support the author by subscribing to the youtube channel, liking the videos and share it with your VFX and AI enthusiasts friends.
+* All the tutorials, scripts, tools and software-bridges developed by [VFX Kitchen.](https://www.youtube.com/VFXKitchen) are free for academic and non-commercial use only.
